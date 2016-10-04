@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import Raven from 'raven-js';
 import logo from './logo.svg';
 import './App.css';
-
-
 
 class App extends Component {
   render() {
