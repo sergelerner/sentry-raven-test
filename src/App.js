@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
+import Raven from 'raven-js';
 import logo from './logo.svg';
 import './App.css';
+
+
+Raven
+  .config('https://819e0d4d48d14194ac38a29ca72488e1@sentry.io/102888')
+  .install();
 
 class App extends Component {
   render() {
